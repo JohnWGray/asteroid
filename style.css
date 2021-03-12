@@ -1,0 +1,34 @@
+
+#score {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+
+.board {
+  background-color: #000000;
+  width: 100%;
+  height: 600px;
+
+}
+
+
+#asteroid {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  
+  animation-name: left-right;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+ 
+}
+
+@keyframes left-right {
+  0%   {left:-100px; top:35%;}
+  
+  100% {left:300px; top:35%;}
+}
