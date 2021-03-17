@@ -20,6 +20,12 @@
 
 #asteroid {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
+}
+
+#fireball {
+  position: relative;
+  width: 400px;
+  height: auto;
 }

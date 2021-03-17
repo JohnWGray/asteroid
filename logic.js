@@ -1,16 +1,44 @@
+// This is the same as $(document).ready(function() but shorter. (Lets page load first)
 $(function () {
     let i = 0;
     $('#asteroid').click(function () {
         i++;
-        console.log(i)
-        if (i == 3) {
-            document.getElementById("asteroid").src = "images/a2.png"
+
+        if (i == 1) {
+            $(this).attr("src", "images/a1.png")
         }
-        else if (i == 6) {
-            document.getElementById("asteroid").src = "images/a3.png"
+
+        else if (i == 2) {
+            $(this).attr("src", "images/a2.png")
         }
-        else if (i == 10) {
-            document.getElementById("asteroid").src = "images/explosion.png"
+        else if (i == 3) {
+            $(this).attr("src", "images/a3.png")
+        }
+
+        else if (i == 4) {
+            $(this).attr("src", "images/a4.png")
+        }
+
+        else if (i == 5) {
+            $(this).hide()
+            var explosion = $('<img id="fireball">');
+            explosion.attr('src', "images/fire.png");
+            explosion.appendTo('.board');
+
+            $("#fireball").animate(
+                {
+                    height: 'auto',
+                    width: '1000px',
+                },
+
+                {
+                    duration: 300
+                },
+
+            );
+
+            $('#fireball').fadeOut(500)
+
         }
     });
 });
