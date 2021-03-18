@@ -28,16 +28,17 @@ $(function () {
             $("#fireball").animate(
                 {
                     height: 'auto',
-                    width: '1000px',
+                    width: '800px',
                 },
 
                 {
                     duration: 300
-                },
+
+                }
 
             );
 
-            $('#fireball').fadeOut(500)
+            $('#fireball').fadeOut(400)
 
         }
     });
