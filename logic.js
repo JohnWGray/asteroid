@@ -1,4 +1,4 @@
-// This is the same as $(document).ready(function() but shorter. (Lets page load first)
+
 $(function () {
     let i = 0;
     $('#asteroid').click(function () {

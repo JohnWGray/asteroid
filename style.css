@@ -1,9 +1,3 @@
-
-.container {
-  margin: 10px;
-}
-
-
 .board {
   background-image: url("images/space.jpg");
   background-repeat: no-repeat;
@@ -14,7 +8,6 @@
   align-items: center;
   overflow: hidden;
 }
-
 
 #fireball {
   position: relative;
@@ -41,4 +34,3 @@
       transform:rotate(360deg);
   }
 }
-
