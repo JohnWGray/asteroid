@@ -34,12 +34,14 @@ $(function () {
                 {
                     duration: 300
 
-                }
+                },
 
             );
 
-            $('#fireball').fadeOut(400)
+            $('#fireball').fadeOut(300);
 
         }
+
     });
+
 });
