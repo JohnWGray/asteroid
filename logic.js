@@ -16,10 +16,6 @@ $(function () {
         }
 
         else if (i == 4) {
-            $(this).attr("src", "images/a4.png")
-        }
-
-        else if (i == 5) {
             $(this).hide()
             var explosion = $('<img id="fireball">');
             explosion.attr('src', "images/fire.png");
