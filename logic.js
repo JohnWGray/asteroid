@@ -1,5 +1,6 @@
 
 $(function () {
+    //Tracks clicks
     let i = 0;
     $('#asteroid').click(function () {
         i++;
